@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Primitives {
     public static void main(String[] args){
 //        Always add L at the end to avoid confusion to JAVA. Also add underscore after every third digit in JAVA
@@ -6,7 +8,8 @@ public class Primitives {
         float price = 4.334F;
 //        Always use single quote for single character and multiple quote for multiple characters
         char alphabet = 'C';
-        System.out.println(temperature);
         boolean isEligible = false;
+        Date now = new Date();
+        System.out.println(now.getYear());
     }
 }
